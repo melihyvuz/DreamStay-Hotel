@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#showcase {
+  background: url("./resimler/hotel1.png") no-repeat center center;
+  background-size: cover;
+  /* Bu satır resmi tamamen kaplatır, orantılı kırpma yapar */
+  height: 1100px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  /* Üzerine yazı gelirse görünmesi için */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-header__title {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.main-header {
+  background-color: #2e4c6d;
+  padding: 10px 16px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-header__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #031c37;
+  padding: 6px 16px;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.main-nav__item a:hover {
+  color: #2e4c6d;
+  background-color: #fff;
+  border-color: #031c37;
+}
+
+#about-us {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#about-us h2 {
+  color: #2e4c6d;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+#about-us p {
+  font-size: 18px;
+  max-width: 900px;
+  margin: auto;
+  color: #333;
+  line-height: 1.6;
+}
+
+#how-it-works {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#how-it-works h2 {
+  color: #3e4555;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.row {
+  .row {
+    margin-bottom: 40px;
+    text-align: center;
+    /* Kartları hizalı tutmak için */
+  }
+
+}
+
+.col {
+  display: inline-block;
+  width: 30%;
+  padding: 16px;
+  margin: 10px;
+  vertical-align: top;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.col:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.icon h3 {
+  color: #2e4c6d;
+  font-size: 22px;
+}
+
+.icon p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #2e4c6d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+/* Footer için padding sıfırlaması */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-section {
+  background-image: url('resimler/hotell.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  /* Buradaki padding'i sıfırladım */
+  position: relative;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+}
+
+.contact-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 60px 0;
+  /* Yan padding'leri kaldırdım */
+  width: 100%;
+}
+
+.contact-container {
+  max-width: 500px;
+  margin: 0 auto;
+  /* Otomatik margin ile ortalamak için */
+  text-align: center;
+  padding: 0 15px;
+  /* Sadece içerik için küçük padding */
+}
+
+.contact-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #f4d47c;
+}
+
+.contact-container p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #eee;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+  resize: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  height: 90px;
+}
+
+.contact-form button {
+  background-color: #f4d47c;
+  color: #000;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e4c45c;
+}
